@@ -1,0 +1,447 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.color1 {
+  background-color: rgb(131, 45, 222);
+}
+
+.color2 {
+  background-color: rgb(64, 86, 199);
+}
+
+.color3 {
+  background-color: rgb(254, 185, 2);
+}
+
+.color4 {
+  background-color: rgb(64, 189, 138);
+}
+
+.first {
+  background-color: #CBC3FF;
+}
+
+.second {
+  background-color: #FFDCC3;
+}
+
+.third {
+  background-color: #C3FFED;
+}
+
+.fourth {
+  background-color: #FFC3C3;
+}
+
+.fifth {
+  background-color: #FFC3C3;
+}
+
+.sixth {
+  background-color: #FFF7AC;
+}
+
+body {
+  background-color: rgb(243, 245, 236);
+}
+
+h1 {
+  color: rgb(42, 36, 49);
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: rgb(46, 46, 46);
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: rgb(42, 36, 49);
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+#training {
+  width: 100%;
+  margin: 70px 0;
+}
+#training .content {
+  width: 95%;
+  margin: auto;
+}
+#training .content .box-text {
+  width: 100%;
+  margin-bottom: 56px;
+}
+#training .content .box-text h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#training .content .box-text p {
+  font-size: 14px;
+  font-weight: 500;
+  width: 35%;
+}
+#training .content .boxes .box {
+  margin-bottom: 30px;
+}
+#training .content .boxes .box .image {
+  width: 100%;
+  background-color: gray;
+  height: 180px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 30px;
+}
+#training .content .boxes .box .image a {
+  position: absolute;
+  rotate: -45deg;
+  bottom: 5%;
+  right: 5%;
+}
+#training .content .boxes .box .image a i {
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+}
+#training .content .boxes .box .text h1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+#training .content .boxes .box .text p {
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(0, 0, 0);
+}
+#training .content .boxes .box .text a {
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+#whyWee {
+  width: 100%;
+  background-color: white;
+  padding: 70px 0;
+}
+#whyWee .content {
+  width: 95%;
+  margin: auto;
+}
+#whyWee .content .left .box {
+  width: 100%;
+  position: relative;
+  border-radius: 100px;
+}
+#whyWee .content .left .box a {
+  background-color: #FE4D39;
+  padding: 15px 80px;
+  color: white;
+  font-size: 12px;
+  left: 0;
+  top: 0;
+  font-weight: 600;
+  border-radius: 50px;
+  text-align: center;
+  position: absolute;
+  display: inline-block;
+}
+#whyWee .content .left .box .l_bottom {
+  position: absolute;
+  bottom: 0;
+  width: 13%;
+  left: 0;
+}
+#whyWee .content .left .box .r_bottom {
+  position: absolute;
+  width: 26%;
+  right: 10%;
+  bottom: 0;
+}
+#whyWee .content .left .box .substract {
+  width: 90%;
+}
+#whyWee .content .right .box {
+  width: 95%;
+}
+#whyWee .content .right .box .box-text {
+  margin-bottom: 89px;
+}
+#whyWee .content .right .box .box-text h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#whyWee .content .right .box .box-text p {
+  font-size: 14px;
+  font-weight: 500;
+}
+#whyWee .content .right .box .boxes {
+  width: 100%;
+}
+#whyWee .content .right .box .boxes .star {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#whyWee .content .right .box .boxes .star .icon {
+  border-radius: 8px;
+  position: relative;
+  padding: 20px;
+}
+#whyWee .content .right .box .boxes .star .icon img {
+  position: absolute;
+  vertical-align: middle;
+  width: 60%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+#whyWee .content .right .box .boxes .star .text {
+  width: 78%;
+}
+#whyWee .content .right .box .boxes .star .text h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+#whyWee .content .right .box .boxes .star .text p {
+  font-size: 10px;
+  color: rgb(147, 147, 147);
+}
+
+#portfolio {
+  width: 100%;
+  margin: 70px 0;
+}
+#portfolio .content {
+  width: 95%;
+  margin: auto;
+}
+#portfolio .content .box-text {
+  width: 100%;
+}
+#portfolio .content .box-text h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+#portfolio .content .box-text .bottom {
+  width: 100%;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#portfolio .content .box-text .bottom p {
+  font-size: 14px;
+  font-weight: 500;
+  width: 35%;
+}
+#portfolio .content .box-text .bottom a {
+  font-weight: 500;
+  display: inline-block;
+  padding: 7px 14px;
+  font-size: 16px;
+}
+#portfolio .content .boxes {
+  width: 100%;
+  justify-content: space-between;
+}
+#portfolio .content .boxes .box {
+  width: 24%;
+  height: 450px;
+  position: relative;
+  transition: 0.4s ease-in-out;
+}
+#portfolio .content .boxes .box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+}
+#portfolio .content .boxes .box .content {
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#portfolio .content .boxes .box .content .top {
+  width: 100%;
+}
+#portfolio .content .boxes .box .content .top a {
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+#portfolio .content .boxes .box .content .bottom {
+  transition: 1s ease-in-out;
+}
+#portfolio .content .boxes .box .content .bottom h2 {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+}
+#portfolio .content .boxes .box .content .bottom p {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  display: none;
+}
+#portfolio .content .boxes .box .content .bottom a {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+}
+#portfolio .content .boxes .box .content .bottom a .btn {
+  width: 100%;
+  background-color: white;
+  border-radius: 500px;
+  align-items: center;
+  justify-content: space-between;
+}
+#portfolio .content .boxes .box .content .bottom a .btn h6 {
+  color: rgb(42, 36, 49);
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+#portfolio .content .boxes .box .content .bottom a .btn i {
+  color: rgb(42, 36, 49);
+  font-size: 10px;
+}
+#portfolio .content .boxes .box.active {
+  width: 48%;
+}
+#portfolio .content .boxes .box.active .content .bottom p {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  #training {
+    width: 100%;
+    margin: 50px 0;
+  }
+  #training .content {
+    width: 95%;
+    margin: auto;
+  }
+  #training .content .box-text {
+    width: 100%;
+    margin-bottom: 56px;
+  }
+  #training .content .box-text h1 {
+    font-size: 24px;
+    font-weight: 700;
+  }
+  #training .content .box-text p {
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+  }
+  #whyWee {
+    width: 100%;
+    background-color: white;
+    padding: 70px 0;
+  }
+  #whyWee .content {
+    width: 95%;
+    margin: auto;
+  }
+  #whyWee .content .left {
+    display: none;
+  }
+  #whyWee .content .left .box {
+    width: 100%;
+    position: relative;
+    border-radius: 100px;
+  }
+  #whyWee .content .left .box a {
+    background-color: #FE4D39;
+    padding: 15px 80px;
+    color: white;
+    font-size: 12px;
+    left: 0;
+    top: 0;
+    font-weight: 600;
+    border-radius: 50px;
+    text-align: center;
+    position: absolute;
+    display: inline-block;
+  }
+  #whyWee .content .left .box .l_bottom {
+    position: absolute;
+    bottom: 0;
+    width: 13%;
+    left: 0;
+  }
+  #whyWee .content .left .box .r_bottom {
+    position: absolute;
+    width: 26%;
+    right: 10%;
+    bottom: 0;
+  }
+  #whyWee .content .left .box .substract {
+    width: 90%;
+  }
+  #whyWee .content .right .box {
+    width: 95%;
+  }
+  #whyWee .content .right .box .box-text {
+    margin-bottom: 89px;
+  }
+  #whyWee .content .right .box .box-text h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  #whyWee .content .right .box .box-text p {
+    font-size: 14px;
+    font-weight: 500;
+  }
+  #whyWee .content .right .box .boxes {
+    width: 100%;
+  }
+  #whyWee .content .right .box .boxes .star {
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  #whyWee .content .right .box .boxes .star .icon {
+    border-radius: 8px;
+    position: relative;
+    padding: 20px;
+  }
+  #whyWee .content .right .box .boxes .star .icon img {
+    position: absolute;
+    vertical-align: middle;
+    width: 60%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #whyWee .content .right .box .boxes .star .text {
+    width: 78%;
+  }
+  #whyWee .content .right .box .boxes .star .text h1 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  #whyWee .content .right .box .boxes .star .text p {
+    font-size: 10px;
+    color: rgb(147, 147, 147);
+  }
+}/*# sourceMappingURL=style.css.map */

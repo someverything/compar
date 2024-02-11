@@ -1,0 +1,40 @@
+// 'use strict'
+// document.addEventListener("DOMContentLoaded", function() {
+//     const boxes = document.querySelectorAll('.box');
+//     let firstBox = boxes[0];
+
+//     boxes.forEach(box => {
+//         box.addEventListener('mouseover', function() {
+//             boxes.forEach(b => b.classList.remove('active'));
+//             this.classList.add('active');
+//         });
+//     });
+
+//     boxes[0].parentNode.addEventListener('mouseout', function() {
+//         boxes.forEach(b => b.classList.remove('active'));
+//         firstBox.classList.add('active');
+//     });
+// });
+
+'use strict';
+
+document.addEventListener("DOMContentLoaded", function() {
+    const boxes = document.querySelectorAll('.box');
+    const parent = boxes[0].parentNode; // Get the parent element
+    let firstBox = boxes[0];
+
+    boxes.forEach(box => {
+        box.addEventListener('mouseover', function() {
+            boxes.forEach(b => b.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+
+    parent.addEventListener('mouseout', function(event) {
+        // Check if the mouse pointer is outside the parent element
+        if (!parent.contains(event.relatedTarget)) {
+            boxes.forEach(b => b.classList.remove('active'));
+            firstBox.classList.add('active');
+        }
+    });
+});
