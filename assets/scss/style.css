@@ -68,27 +68,27 @@ a {
   width: 100%;
   margin: 70px 0;
 }
-#training .content {
+#training .training-content {
   width: 95%;
   margin: auto;
 }
-#training .content .box-text {
+#training .training-content .training-box-text {
   width: 100%;
   margin-bottom: 56px;
 }
-#training .content .box-text h1 {
+#training .training-content .training-box-text h1 {
   font-size: 30px;
   font-weight: 700;
 }
-#training .content .box-text p {
+#training .training-content .training-box-text p {
   font-size: 14px;
   font-weight: 500;
   width: 35%;
 }
-#training .content .boxes .box {
+#training .training-content .training-boxes .training-box {
   margin-bottom: 30px;
 }
-#training .content .boxes .box .image {
+#training .training-content .training-boxes .training-box .image {
   width: 100%;
   background-color: gray;
   height: 180px;
@@ -96,28 +96,28 @@ a {
   position: relative;
   margin-bottom: 30px;
 }
-#training .content .boxes .box .image a {
+#training .training-content .training-boxes .training-box .image a {
   position: absolute;
   rotate: -45deg;
   bottom: 5%;
   right: 5%;
 }
-#training .content .boxes .box .image a i {
+#training .training-content .training-boxes .training-box .image a i {
   padding: 10px;
   border-radius: 50%;
   color: white;
 }
-#training .content .boxes .box .text h1 {
+#training .training-content .training-boxes .training-box .training-text h1 {
   font-size: 16px;
   font-weight: 600;
   color: rgb(0, 0, 0);
 }
-#training .content .boxes .box .text p {
+#training .training-content .training-boxes .training-box .training-text p {
   font-size: 12px;
   font-weight: 400;
   color: rgb(0, 0, 0);
 }
-#training .content .boxes .box .text a {
+#training .training-content .training-boxes .training-box .training-text a {
   color: black;
   padding: 10px;
   border-radius: 6px;
@@ -131,70 +131,81 @@ a {
   background-color: white;
   padding: 70px 0;
 }
-#whyWee .content {
+#whyWee .whyWee-content {
   width: 95%;
   margin: auto;
 }
-#whyWee .content .left .box {
+#whyWee .whyWee-content .whyWee-left .whyWee-box {
   width: 100%;
   position: relative;
   border-radius: 100px;
 }
-#whyWee .content .left .box a {
-  background-color: #FE4D39;
-  padding: 15px 80px;
-  color: white;
-  font-size: 12px;
+#whyWee .whyWee-content .whyWee-left .whyWee-box .whyWee-box-url {
   left: 0;
   top: 0;
-  font-weight: 600;
-  border-radius: 50px;
   text-align: center;
   position: absolute;
-  display: inline-block;
+  width: 40%;
+  max-height: 50%;
 }
-#whyWee .content .left .box .l_bottom {
+#whyWee .whyWee-content .whyWee-left .whyWee-box .whyWee-box-url a {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 0;
+  border-radius: 50px;
+  display: inline-block;
+  background-color: #FE4D39;
+  color: #fff;
+  width: 100%;
+  max-height: 100%;
+}
+#whyWee .whyWee-content .whyWee-left .whyWee-box .l_bottom {
   position: absolute;
   bottom: 0;
   width: 13%;
   left: 0;
 }
-#whyWee .content .left .box .r_bottom {
+#whyWee .whyWee-content .whyWee-left .whyWee-box .r_bottom {
   position: absolute;
   width: 26%;
   right: 10%;
   bottom: 0;
 }
-#whyWee .content .left .box .substract {
+#whyWee .whyWee-content .whyWee-left .whyWee-box .substract {
   width: 90%;
 }
-#whyWee .content .right .box {
-  width: 95%;
+#whyWee .whyWee-content .whyWee-right {
+  display: flex;
 }
-#whyWee .content .right .box .box-text {
+#whyWee .whyWee-content .whyWee-right .whyWee-box {
+  width: 95%;
+  margin: auto;
+}
+#whyWee .whyWee-content .whyWee-right .whyWee-box .whyWee-box-text {
   margin-bottom: 89px;
 }
-#whyWee .content .right .box .box-text h1 {
+#whyWee .whyWee-content .whyWee-right .whyWee-box .whyWee-box-text h1 {
   font-size: 30px;
   font-weight: 700;
 }
-#whyWee .content .right .box .box-text p {
+#whyWee .whyWee-content .whyWee-right .whyWee-box .whyWee-box-text p {
   font-size: 14px;
   font-weight: 500;
 }
-#whyWee .content .right .box .boxes {
+#whyWee .whyWee-content .whyWee-right .whyWee-box .whyWee-boxes {
   width: 100%;
 }
-#whyWee .content .right .box .boxes .star {
-  justify-content: space-between;
+#whyWee .whyWee-content .whyWee-right .whyWee-box .whyWee-boxes .whyWee-star {
   align-items: flex-start;
+  display: flex;
 }
-#whyWee .content .right .box .boxes .star .icon {
+#whyWee .whyWee-content .whyWee-right .whyWee-box .whyWee-boxes .whyWee-star .whyWee-icon {
   border-radius: 8px;
   position: relative;
   padding: 20px;
 }
-#whyWee .content .right .box .boxes .star .icon img {
+#whyWee .whyWee-content .whyWee-right .whyWee-box .whyWee-boxes .whyWee-star .whyWee-icon img {
   position: absolute;
   vertical-align: middle;
   width: 60%;
@@ -202,14 +213,14 @@ a {
   top: 50%;
   transform: translate(-50%, -50%);
 }
-#whyWee .content .right .box .boxes .star .text {
-  width: 78%;
+#whyWee .whyWee-content .whyWee-right .whyWee-box .whyWee-boxes .whyWee-star .whyWee-text {
+  margin-left: 10px;
 }
-#whyWee .content .right .box .boxes .star .text h1 {
+#whyWee .whyWee-content .whyWee-right .whyWee-box .whyWee-boxes .whyWee-star .whyWee-text h1 {
   font-size: 16px;
   font-weight: 600;
 }
-#whyWee .content .right .box .boxes .star .text p {
+#whyWee .whyWee-content .whyWee-right .whyWee-box .whyWee-boxes .whyWee-star .whyWee-text p {
   font-size: 10px;
   color: rgb(147, 147, 147);
 }
@@ -218,44 +229,46 @@ a {
   width: 100%;
   margin: 70px 0;
 }
-#portfolio .content {
+#portfolio .portfolio-content {
   width: 95%;
   margin: auto;
 }
-#portfolio .content .box-text {
+#portfolio .portfolio-content .portfolio-box-text {
   width: 100%;
 }
-#portfolio .content .box-text h1 {
+#portfolio .portfolio-content .portfolio-box-text h1 {
   font-size: 30px;
   font-weight: 700;
 }
-#portfolio .content .box-text .bottom {
+#portfolio .portfolio-content .portfolio-box-text .portfolio-bottom {
   width: 100%;
   justify-content: space-between;
   align-items: flex-start;
 }
-#portfolio .content .box-text .bottom p {
+#portfolio .portfolio-content .portfolio-box-text .portfolio-bottom p {
   font-size: 14px;
   font-weight: 500;
   width: 35%;
 }
-#portfolio .content .box-text .bottom a {
+#portfolio .portfolio-content .portfolio-box-text .portfolio-bottom a {
   font-weight: 500;
   display: inline-block;
   padding: 7px 14px;
   font-size: 16px;
+  display: block;
 }
-#portfolio .content .boxes {
+#portfolio .portfolio-content .portfolio-boxes {
   width: 100%;
   justify-content: space-between;
+  display: flex;
 }
-#portfolio .content .boxes .box {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box {
   width: 24%;
   height: 450px;
   position: relative;
   transition: 0.4s ease-in-out;
 }
-#portfolio .content .boxes .box img {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box img {
   position: absolute;
   top: 0;
   left: 0;
@@ -265,7 +278,7 @@ a {
      object-fit: cover;
   z-index: 1;
 }
-#portfolio .content .boxes .box .content {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box .box-content {
   padding: 15px;
   position: absolute;
   top: 0;
@@ -277,10 +290,10 @@ a {
   flex-direction: column;
   justify-content: space-between;
 }
-#portfolio .content .boxes .box .content .top {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box .box-content .box-top {
   width: 100%;
 }
-#portfolio .content .boxes .box .content .top a {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box .box-content .box-top a {
   color: black;
   padding: 10px;
   border-radius: 6px;
@@ -288,48 +301,129 @@ a {
   font-size: 12px;
   font-weight: 500;
 }
-#portfolio .content .boxes .box .content .bottom {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box .box-content .box-bottom {
   transition: 1s ease-in-out;
 }
-#portfolio .content .boxes .box .content .bottom h2 {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box .box-content .box-bottom h2 {
   font-size: 30px;
   color: white;
   font-weight: 700;
 }
-#portfolio .content .boxes .box .content .bottom p {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box .box-content .box-bottom p {
   font-size: 12px;
   font-weight: 400;
   color: white;
   display: none;
 }
-#portfolio .content .boxes .box .content .bottom a {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box .box-content .box-bottom a {
   display: inline-block;
   width: 100%;
   padding: 0;
 }
-#portfolio .content .boxes .box .content .bottom a .btn {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box .box-content .box-bottom a .btn {
   width: 100%;
   background-color: white;
   border-radius: 500px;
   align-items: center;
   justify-content: space-between;
 }
-#portfolio .content .boxes .box .content .bottom a .btn h6 {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box .box-content .box-bottom a .btn h6 {
   color: rgb(42, 36, 49);
   padding: 0;
   margin: 0;
   font-size: 14px;
   font-weight: 500;
 }
-#portfolio .content .boxes .box .content .bottom a .btn i {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box .box-content .box-bottom a .btn i {
   color: rgb(42, 36, 49);
   font-size: 10px;
 }
-#portfolio .content .boxes .box.active {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box.active {
   width: 48%;
 }
-#portfolio .content .boxes .box.active .content .bottom p {
+#portfolio .portfolio-content .portfolio-boxes .portfolio-box.active .box-content .box-bottom p {
   display: block;
+}
+#portfolio .portfolio-content .portfolio-slider {
+  width: 100%;
+  display: none;
+  display: none;
+}
+#portfolio .portfolio-content .portfolio-slider .slide {
+  width: 100%;
+  height: 450px;
+  position: relative;
+  transition: 0.4s ease-in-out;
+}
+#portfolio .portfolio-content .portfolio-slider .slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 1;
+}
+#portfolio .portfolio-content .portfolio-slider .slide .box-content {
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#portfolio .portfolio-content .portfolio-slider .slide .box-content .box-top {
+  width: 100%;
+}
+#portfolio .portfolio-content .portfolio-slider .slide .box-content .box-top a {
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  margin-right: 5px;
+  font-size: 12px;
+  font-weight: 500;
+}
+#portfolio .portfolio-content .portfolio-slider .slide .box-content .box-bottom {
+  transition: 1s ease-in-out;
+}
+#portfolio .portfolio-content .portfolio-slider .slide .box-content .box-bottom h2 {
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+}
+#portfolio .portfolio-content .portfolio-slider .slide .box-content .box-bottom p {
+  font-size: 12px;
+  font-weight: 400;
+  color: white;
+  display: none;
+}
+#portfolio .portfolio-content .portfolio-slider .slide .box-content .box-bottom a {
+  display: inline-block;
+  width: 100%;
+  padding: 0;
+}
+#portfolio .portfolio-content .portfolio-slider .slide .box-content .box-bottom a .btn {
+  width: 100%;
+  background-color: white;
+  border-radius: 500px;
+  align-items: center;
+  justify-content: space-between;
+}
+#portfolio .portfolio-content .portfolio-slider .slide .box-content .box-bottom a .btn h6 {
+  color: rgb(42, 36, 49);
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+#portfolio .portfolio-content .portfolio-slider .slide .box-content .box-bottom a .btn i {
+  color: rgb(42, 36, 49);
+  font-size: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -384,21 +478,6 @@ a {
     position: absolute;
     display: inline-block;
   }
-  #whyWee .content .left .box .l_bottom {
-    position: absolute;
-    bottom: 0;
-    width: 13%;
-    left: 0;
-  }
-  #whyWee .content .left .box .r_bottom {
-    position: absolute;
-    width: 26%;
-    right: 10%;
-    bottom: 0;
-  }
-  #whyWee .content .left .box .substract {
-    width: 90%;
-  }
   #whyWee .content .right .box {
     width: 95%;
   }
@@ -443,5 +522,30 @@ a {
   #whyWee .content .right .box .boxes .star .text p {
     font-size: 10px;
     color: rgb(147, 147, 147);
+  }
+}
+@media screen and (max-width: 1024px) {
+  #portfolio .portfolio-content {
+    width: 100%;
+  }
+  #portfolio .portfolio-content .portfolio-box-text {
+    width: 95%;
+    margin: auto;
+  }
+  #portfolio .portfolio-content .portfolio-box-text .portfolio-bottom p {
+    width: 100%;
+  }
+  #portfolio .portfolio-content .portfolio-box-text .portfolio-bottom a {
+    display: none;
+  }
+  #portfolio .portfolio-content .portfolio-boxes {
+    display: none;
+  }
+  #portfolio .portfolio-content .portfolio-slider {
+    overflow: hidden;
+    display: block;
+  }
+  #portfolio .portfolio-content .portfolio-slider .slide .box-bottom .box-content p {
+    display: block;
   }
 }/*# sourceMappingURL=style.css.map */

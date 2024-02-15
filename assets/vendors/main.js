@@ -19,7 +19,7 @@
 'use strict';
 
 document.addEventListener("DOMContentLoaded", function() {
-    const boxes = document.querySelectorAll('.box');
+    const boxes = document.querySelectorAll('.portfolio-box');
     const parent = boxes[0].parentNode; // Get the parent element
     let firstBox = boxes[0];
 
@@ -37,4 +37,12 @@ document.addEventListener("DOMContentLoaded", function() {
             firstBox.classList.add('active');
         }
     });
+});
+
+var swiper = new Swiper('.swiper-container', {
+    loop: true, 
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
 });
