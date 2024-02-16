@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const boxes = document.querySelectorAll('.portfolio-box');
     const parent = boxes[0].parentNode; // Get the parent element
     let firstBox = boxes[0];
-
+    firstBox.classList.add('active');
     boxes.forEach(box => {
         box.addEventListener('mouseover', function() {
             boxes.forEach(b => b.classList.remove('active'));
