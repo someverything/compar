@@ -39,10 +39,28 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-var swiper = new Swiper('.swiper-container', {
-    loop: true, 
-    navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-    },
-});
+// var swiper = new Swiper('.swiper-container', {
+//     loop: true, 
+//     navigation: {
+//         nextEl: '.swiper-button-next',
+//         prevEl: '.swiper-button-prev',
+//     },
+//     scrollbar: {
+//         el: ".swiper-scrollbar",
+//         hide: true,
+//       },
+// });
+
+// var swiper = new Swiper('.swiper-container', {
+//     scrollbar: {
+//         el: '.swiper-scrollbar',
+//         hide: false, // Показать скроллбар всегда
+//     },
+// });
+
+var swiper = new Swiper(".mySwiper", {
+    scrollbar: {
+        el: ".swiper-scrollbar",
+        hide: true,
+    }
+})

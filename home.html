@@ -14,13 +14,13 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="assets/vendors/bootstrap.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/scss/style.css">
 </head>
 
 <body>
     <!-- TRAINING START---------------------- -->
-    <section id="training">
+    <!-- <section id="training">
         <div class="training-content">
             <div class="training-box-text">
                 <h1>Tədris sahələrimiz</h1>
@@ -42,10 +42,10 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- TRAINING END---------------------- -->
     <!-- WHYWEE START---------------------- -->
-    <section id="whyWee">
+    <!-- <section id="whyWee">
         <div class="whyWee-content">
             <div class="row">
                 <div class="whyWee-left col-lg-6 col-md-6 col-sm-12 col-12">
@@ -107,7 +107,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- WHYWEE END---------------------- -->
     <!-- PORTFOLIO START---------------------- -->
     <section id="portfolio">
@@ -180,14 +180,15 @@
                         </div>
                     </div>
                 </div>
-                
+
 
             </div>
-
-            <div class="portfolio-slider swiper-container">
+        </div>
+        <div class="portfolio-slider">
+            <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="slide">
+                        <div class="portfolio-box active">
                             <img class="img-fluid" src="assets/photo/bg.png" alt="">
                             <div class="box-content">
                                 <div class="box-top">
@@ -209,7 +210,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="slide">
+                        <div class="portfolio-box active">
                             <img class="img-fluid" src="assets/photo/bg.png" alt="">
                             <div class="box-content">
                                 <div class="box-top">
@@ -231,7 +232,7 @@
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <div class="slide">
+                        <div class="portfolio-box active">
                             <img class="img-fluid" src="assets/photo/bg.png" alt="">
                             <div class="box-content">
                                 <div class="box-top">
@@ -253,15 +254,19 @@
                         </div>
                     </div>
                 </div>
+                <div class="swiper-scrollbar"></div>
             </div>
         </div>
     </section>
-
-    <section id="slider">
-
-    </section>
+    <!-- <script>
+        var swiper = new Swiper(".mySwiper", {
+            scrollbar: {
+                el: ".swiper-scrollbar",
+            }
+        });
+    </script> -->
     
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/vendors/main.js"></script>
 </body>
 
